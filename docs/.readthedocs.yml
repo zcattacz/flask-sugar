@@ -7,7 +7,7 @@ version: 2
 
 python:
    install:
-   - requirements: docs/rdt-requirements.txt
+   - requirements: docs/rtd-requirements.txt
 
 # Build documentation with MkDocs
 #mkdocs:
