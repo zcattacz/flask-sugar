@@ -1,4 +1,4 @@
 Jinja2<3.1.0
 mkdocs-pymdownx-material-extras
 mkdocs-with-pdf
-weasyprint=52.5
+weasyprint<53.0
