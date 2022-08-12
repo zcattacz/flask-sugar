@@ -1,0 +1,69 @@
+site_name: Flask Sugar
+site_description: Flask Sugar is a web framework for building APIs with Flask, Pydantic and Python 3.6+ type hints.
+theme:
+  name: readthedocs
+  language: en
+  palette:
+    primary: red
+  icon:
+    logo: material/candycane
+    repo: fontawesome/brands/github
+  favicon: img/favicon.ico
+  features:
+    - navigation.expand
+    - navigation.top
+    - navigation.tabs
+repo_url: https://github.com/ShangSky/flask-sugar
+repo_name: ShangSky/flask-sugar
+edit_uri: ""
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.snippets
+  - pymdownx.progressbar
+  - attr_list
+extra:
+  alternate:
+    - name: English
+      lang: en
+    - name: 简体中文
+      link: zh/
+      lang: zh
+extra_css:
+  - css/hide_tab.css
+nav:
+  - "English Documentation":
+    - "Quick Start": index.md
+    - Parameters:
+      - params/path-params.md
+      - params/query-params.md
+      - params/cookie-params.md
+      - params/header-params.md
+      - params/request-body.md
+      - params/form-data.md
+      - params/file-uploads.md
+    - response.md
+    - handling-errors.md
+    - sugar-parameters.md
+    - operation-parameters.md
+    - doc-route-filter.md
+  - 中文文档:
+    - 快速开始: zh/index.md
+    - 请求参数:
+      - zh/params/path-params.md
+      - zh/params/query-params.md
+      - zh/params/cookie-params.md
+      - zh/params/header-params.md
+      - zh/params/request-body.md
+      - zh/params/form-data.md
+      - zh/params/file-uploads.md
+    - zh/response.md
+    - zh/handling-errors.md
+    - zh/sugar-parameters.md
+    - zh/operation-parameters.md
+    - zh/doc-route-filter.md
